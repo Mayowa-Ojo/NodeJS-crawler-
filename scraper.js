@@ -4,9 +4,9 @@ const $ = require("cheerio")
 const puppeteer = require("puppeteer")
 
 const log = console.log;
-const BASE_URL = "http://kissmanga.xyz/boruto-naruto-next-generations/chapter-35#";
+const BASE_URL = "http://kissmanga.xyz/boruto-naruto-next-generations/chapter-";
 
-exports.scrapeFunc = async () => {
+exports.scrapeFunc = async (chapter) => {
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });;
@@ -16,7 +16,7 @@ exports.scrapeFunc = async () => {
     let current_page = 1;
     const scraper = async (BASE_URL) => {
         const page = await browser.newPage();
-        let url = `${BASE_URL}${current_page}`
+        let url = `${BASE_URL}${chapter}#${current_page}`
         await page.goto(url);
         log(`Scraping: ${url} with current page at ${current_page} and pagesArr is ${pagesArr.length} items long`)
         const scrape = await page.evaluate(() => {

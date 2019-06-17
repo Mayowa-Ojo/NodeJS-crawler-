@@ -1,14 +1,12 @@
 {
-  "scrapedURLS": [
-    {
-      "chapter": 35,
-      "urls": [
-        "https://xy-101-j.mangapark.net/21/f9/5cfb5839cb8a0209e1c99f12/01_1429138_888_1300.jpeg",
-        "https://xy-101-j.mangapark.net/21/f9/5cfb5839cb8a0209e1c99f12/02_240665_800_600.jpeg",
-        "https://xy-101-j.mangapark.net/21/f9/5cfb5839cb8a0209e1c99f12/03_309295_916_1300.jpeg",
-        "https://xy-101-j.mangapark.net/21/f9/5cfb5839cb8a0209e1c99f12/04_271582_929_1300.jpeg",
-        "https://xy-101-j.mangapark.net/21/f9/5cfb5839cb8a0209e1c99f12/05_248920_930_1300.jpeg"
-      ]
-    }
-  ]
+  "boruto": {
+    "chapter": "30",
+    "urls": [
+      "https://s8.mkklcdnv8.com/mangakakalot/b2/boruto_naruto_next_generations/chapter_30_confrontation/1.jpg",
+      "https://s8.mkklcdnv8.com/mangakakalot/b2/boruto_naruto_next_generations/chapter_30_confrontation/2.jpg",
+      "https://s8.mkklcdnv8.com/mangakakalot/b2/boruto_naruto_next_generations/chapter_30_confrontation/3.jpg",
+      "https://s8.mkklcdnv8.com/mangakakalot/b2/boruto_naruto_next_generations/chapter_30_confrontation/4.jpg",
+      "https://s8.mkklcdnv8.com/mangakakalot/b2/boruto_naruto_next_generations/chapter_30_confrontation/5.jpg"
+    ]
+  }
 }
